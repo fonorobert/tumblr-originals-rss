@@ -1,0 +1,24 @@
+{
+  "name": "tumblr-originals-rss",
+  "version": "0.0.1",
+  "description": "A simple RSS generator to serve an RSS feed of the original posts of a Tumblr blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fonorobert/tumblr-originals-rss.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fonorobert/tumblr-originals-rss/issues"
+  },
+  "homepage": "https://github.com/fonorobert/tumblr-originals-rss#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "feed": "^0.3.0",
+    "tumblr.js": "^1.1.0"
+  }
+}
