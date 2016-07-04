@@ -47,6 +47,6 @@ function makefeed(){
   return feed;
 }
 
-app.listen(3030, function () {
+app.listen(3030, '127.0.0.1', function () {
   console.log('App listening on port 3030!');
 });
